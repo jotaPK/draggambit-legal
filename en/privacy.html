@@ -20,12 +20,14 @@
 <p class="lang"><a href="../es/privacy.html">Versión en español</a></p>
 
 <h1>Drag Gambit — Privacy Policy</h1>
-<p class="updated">Last updated: July 15, 2026</p>
+<p class="updated">Last updated: July 22, 2026</p>
 
 <p><strong>Summary: Drag Gambit does not collect any personal data that could
 identify you. It uses an anonymous analytics tool (GameAnalytics) to
-understand how the game is played and improve it. There are no ads, no
-accounts, and we never sell or share data for commercial purposes.</strong></p>
+understand how the game is played and improve it. It can send you
+notifications about what's new, but only if you opt in, and you can turn
+them off at any time. There are no ads, no accounts, and we never sell or
+share data for commercial purposes.</strong></p>
 
 <h2>What data we collect</h2>
 <p>The game uses <strong>GameAnalytics</strong> (GameAnalytics ApS, Denmark),
@@ -49,15 +51,32 @@ else. There are no ads and no user profiles.</p>
 <p>You can read GameAnalytics' privacy policy at
 <a href="https://gameanalytics.com/privacy/">gameanalytics.com/privacy</a>.</p>
 
+<h2>Push notifications (optional)</h2>
+<p>The game can notify you about what's new (new queens, challenges, or game
+modes) through <strong>Firebase Cloud Messaging</strong>, a Google service.
+It is entirely optional: it only activates if you accept it inside the game
+and then grant Android's notification permission, and you can turn it off at
+any time from your device's notification settings.</p>
+<p>To deliver notifications, Firebase generates a device
+<strong>registration token</strong>: a random identifier that is not linked
+to your identity and is only used to route the notification. Notifications
+are sent to broad topics (for example, the game's language), never targeted
+at individuals, and declining them changes nothing in the game.</p>
+<p>You can read how Google handles this data at
+<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+
 <h2>Data stored on your device</h2>
 <p>Your game progress (card collection, team, and settings) is saved only in
 the app's private storage on your device. It never leaves it, and it is fully
 removed when you uninstall the app.</p>
 
 <h2>Permissions</h2>
-<p>The app uses the <strong>internet</strong> permission (only to send the
-anonymous analytics described above) and the <strong>vibration</strong>
-permission, for haptic feedback when capturing cards. It requests no other
+<p>The app uses the <strong>internet</strong> permission (to send the
+anonymous analytics and receive the notifications described above), the
+<strong>vibration</strong> permission, for haptic feedback when capturing
+cards, and the <strong>notifications</strong> permission, which is optional:
+it is only requested if you opt in to updates, and you can decline or revoke
+it later without changing anything in the game. It requests no other
 permission.</p>
 
 <h2>Children</h2>
